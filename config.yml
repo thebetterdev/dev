@@ -1,4 +1,18 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://dev.com.cn/
+languageCode: zh-CN
+title: DEV
 theme: "PaperMod"
+defaultTheme: "dark"
+
+params:
+  assets:
+    favicon: /favicon.png
+    favicon16x16: /favicon.png
+    favicon32x32: /favicon.png
+    apple_touch_icon: /apple-touch-icon.png
+    safari_pinned_tab: /apple-touch-icon.png
+
+  label:
+    text: "DEV"
+    icon: /logo.png
+    iconHeight: 30
