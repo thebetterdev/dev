@@ -19,8 +19,8 @@ params:
     iconHeight: 30
 
   editPost:
-    URL: "https://github.com/thebetterdev/dev/tree/main/content"
-    Text: "改进建议"
+    URL: "https://github.com/thebetterdev/dev/edit/main/content"
+    Text: "IMPROVE THIS PAGE"
     appendFilePath: true
 
 menu:
