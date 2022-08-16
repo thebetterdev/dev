@@ -5,6 +5,7 @@ theme: "PaperMod"
 defaultTheme: "dark"
 
 params:
+  env: production
   assets:
     favicon: /favicon.png
     favicon16x16: /favicon.png
@@ -16,3 +17,15 @@ params:
     text: "DEV"
     icon: /logo.png
     iconHeight: 30
+
+  editPost:
+    URL: "https://github.com/thebetterdev/dev/tree/main/content"
+    Text: "改进建议"
+    appendFilePath: true
+
+menu:
+  main:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/thebetterdev/dev
+      weight: 10
